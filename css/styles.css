@@ -31,3 +31,70 @@ footer {
     text-align: center;
     font-size: 0.8rem;
 }
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rightheader h1{
+    margin: 0;
+    color: #DA0090;
+    font-size: 3rem;
+}
+
+.rightheader p{
+    margin: 0;
+    font-size: small;
+}
+
+nav > ul{
+    border-top: 1px solid #DA0090;
+    border-bottom: 1px solid #DA0090;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5rem  1rem;
+}
+
+article > img{
+    float: left;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+article{
+    margin: 3rem 0;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section:after{
+    display: table;
+    content: "";
+    margin: 1rem 0;
+    height: 0.5rem;
+    width: 100%;
+    border-top: 1px solid #DA0090;
+    border-bottom: 1px solid #DA0090;
+}
+
+footer > ul > li{
+    display: inline-block;
+}
+
